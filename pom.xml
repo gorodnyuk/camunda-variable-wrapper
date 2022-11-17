@@ -6,12 +6,23 @@
 
     <groupId>uk.gorodny</groupId>
     <artifactId>camunda-variable-wrapper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <description>Wrapper for get camunda variables without casting</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <junit-jupiter-api.version>5.9.1</junit-jupiter-api.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit-jupiter-api.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
